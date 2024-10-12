@@ -19,7 +19,7 @@ const Home = () => {
 
         <section>
           <h2 className="text-3xl font-bold text-center mb-6">Our Flavours</h2>
-          <p className="text-center mb-8">
+          <p className="text-center mb-8 text-xl">
             Explore our variety of delicious pizzas, from classic cheese to adventurous combinations, all crafted with the finest ingredients.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

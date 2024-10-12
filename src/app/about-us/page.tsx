@@ -9,10 +9,10 @@ const About = () => {
       <Header />
       <main className="container mx-auto py-10">
         <h1 className="text-4xl font-bold text-center mb-6">About Pizza Delight</h1>
-        <p className="text-center mb-8">
+        <p className="text-center mb-8 text-xl">
           At Pizza Delight, we’re passionate about creating pizzas that not only taste amazing but also bring joy to our customers. Every pizza is crafted with the finest ingredients, combining traditional methods with new flavors to create a memorable dining experience.
         </p>
-        <p className="text-center mb-8">
+        <p className="text-center mb-8 text-xl">
           Since our establishment in 2023, we’ve become a go-to destination for pizza lovers. Our commitment to quality and creativity has helped us stand out, and we take pride in serving pizzas that cater to all tastes, from classic to gourmet.
         </p>
 
