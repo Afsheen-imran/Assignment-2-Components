@@ -11,8 +11,8 @@ const Home = () => {
       <Hero />
       <main className="container mx-auto py-10">
         <section>
-          <h2 className="text-3xl font-bold text-center mb-6">About Us</h2>
-          <p className="text-center mb-8">
+          <h2 className="text-4xl font-bold text-center mb-6 uppercase">Welcome to Pizza Delight</h2>
+          <p className="text-center mb-8 text-xl">
             Welcome to Pizza Delight, where we believe in serving not just food but a delightful experience. Our pizzas are crafted with love, using only the freshest ingredients and traditional recipes to bring you the best flavors.
           </p>
         </section>
