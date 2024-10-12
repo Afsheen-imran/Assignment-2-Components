@@ -8,61 +8,84 @@ const About = () => {
     <div>
       <Header />
       <main className="container mx-auto py-10">
-        <h1 className="text-4xl font-bold text-center mb-6">About Us</h1>
+        <h1 className="text-4xl font-bold text-center mb-6">About Pizza Delight</h1>
         <p className="text-center mb-8">
-          Welcome to Pizza Delight, where we believe in serving not just food but a delightful experience. Our pizzas are crafted with love, using only the freshest ingredients and traditional recipes to bring you the best flavors.
+          At Pizza Delight, we’re passionate about creating pizzas that not only taste amazing but also bring joy to our customers. Every pizza is crafted with the finest ingredients, combining traditional methods with new flavors to create a memorable dining experience.
         </p>
         <p className="text-center mb-8">
-          Established in 2023, Pizza Delight has become a favorite destination for pizza lovers in our community. Our team is passionate about creating delicious pizzas that cater to every taste, whether you prefer classic flavors or adventurous combinations.
+          Since our establishment in 2023, we’ve become a go-to destination for pizza lovers. Our commitment to quality and creativity has helped us stand out, and we take pride in serving pizzas that cater to all tastes, from classic to gourmet.
         </p>
-        <h2 className="text-3xl font-bold text-center mb-6">Our Commitment to Quality</h2>
-        <p className="text-center mb-8">
-          At Pizza Delight, quality is our priority. We source our ingredients locally whenever possible, ensuring freshness and supporting our local farmers. Our dough is made fresh daily, and our sauces are prepared from scratch to deliver authentic taste in every bite.
-        </p>
-        <h2 className="text-3xl font-bold text-center mb-6">Join Us for a Slice!</h2>
-        <p className="text-center mb-8">
-          We invite you to visit our pizzeria and enjoy a slice of our delicious pizza. Whether it's a family gathering, a night out with friends, or a quick lunch, we have something for everyone. Experience the warmth of our welcoming atmosphere and the joy of sharing great food with great company.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="text-center">
+
+        <h2 className="text-3xl font-bold text-center mb-6">Explore Our Specialties</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="text-center shadow-lg p-6 rounded-lg">
             <Image 
-              src="https://slice-menu-assets-prod.imgix.net/47259/1627629352_2b62ffa2d4?fit=crop&w=1500&h=937.jpg" 
-              alt="Delicious Cheese Pizza" 
-              className="w-full rounded-lg shadow-md" 
-              width={400} 
-              height={400} 
+              src="https://cdn.pixabay.com/photo/2024/04/21/18/44/ai-generated-8711272_960_720.jpg" 
+              alt="Classic Margherita Pizza" 
+              className="w-full h-80 rounded-lg mb-4"
+              width={400}
+              height={300}
             />
-            <h3 className="text-xl font-semibold mt-4">Delicious Cheese Pizza</h3>
+            <h3 className="text-xl font-semibold">Classic Margherita Pizza</h3>
+            <p className="mt-2">A timeless favorite with a simple yet delicious combination of tomato, fresh mozzarella, and basil.</p>
           </div>
-          <div className="text-center">
+          <div className="text-center shadow-lg p-6 rounded-lg">
             <Image 
-              src="https://slice-menu-assets-prod.imgix.net/47259/1627629464_c0e40ef112?fit=crop&w=1500&h=937.jpg"
-              alt="Meat lovers Pizza Meatza Pizza" 
-              className="w-full rounded-lg shadow-md" 
-              width={400} 
-              height={400} 
+              src="https://cdn.pixabay.com/photo/2021/04/06/14/50/pizza-6156603_960_720.jpg" 
+              alt="Spicy Pepperoni Pizza" 
+              className="w-full h-80 rounded-lg mb-4"
+              width={400}
+              height={300}
             />
-            <h3 className="text-xl font-semibold mt-4">Meat lovers Pizza Meatza Pizza</h3>
+            <h3 className="text-xl font-semibold">Spicy Pepperoni Pizza</h3>
+            <p className="mt-2">A bold and zesty creation topped with spicy pepperoni, mozzarella, and tangy tomato sauce.</p>
           </div>
-          <div className="text-center">
+          <div className="text-center shadow-lg p-6 rounded-lg">
             <Image 
-              src="https://slice-menu-assets-prod.imgix.net/47259/1674169083_c5fa3a6130?fit=crop&w=1500&h=937.jpg" 
-              alt="Pepperoni Pizza" 
-              className="w-full rounded-lg shadow-md" 
-              width={400} 
-              height={400} 
+              src="https://cdn.pixabay.com/photo/2014/09/11/22/55/pizza-442058_960_720.jpg" 
+              alt="Veggie Supreme Pizza" 
+              className="w-full h-80 rounded-lg mb-4"
+              width={500}
+              height={700}
             />
-            <h3 className="text-xl font-semibold mt-4">Pepperoni Pizza</h3>
+            <h3 className="text-xl font-semibold">Veggie Supreme Pizza</h3>
+            <p className="mt-2">A garden of fresh vegetables on a crispy crust, topped with mozzarella and our signature tomato sauce.</p>
           </div>
-          <div className="text-center">
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+          <div className="text-center shadow-lg p-6 rounded-lg">
             <Image 
-              src="https://slice-menu-assets-prod.imgix.net/47259/1622713299_403088e921?fit=crop&w=1500&h=937.jpg" 
-              alt="Mediterranean Vegie Pizza Pizza" 
-              className="w-full rounded-lg shadow-md" 
-              width={400} 
-              height={400} 
+              src="https://thumbs.dreamstime.com/z/bbq-chicken-pizza-black-background-picture-perfect-you-to-design-your-restaurant-menus-visit-my-page-will-be-able-117753135.jpg?ct=jpeg" 
+              alt="BBQ Chicken Pizza" 
+              className="w-full h-80 rounded-lg mb-4"
+              width={400}
+              height={300}
             />
-            <h3 className="text-xl font-semibold mt-4">Mediterranean Vegie Pizza Pizza</h3>
+            <h3 className="text-xl font-semibold">BBQ Chicken Pizza</h3>
+            <p className="mt-2">Tender grilled chicken, smoky BBQ sauce, red onions, and cilantro, all on a perfectly baked crust.</p>
+          </div>
+          <div className="text-center shadow-lg p-6 rounded-lg">
+            <Image 
+              src="https://cdn.pixabay.com/photo/2024/05/31/07/48/pizza-8800005_960_720.jpg" 
+              alt=" Cheese Pizza" 
+              className="w-full h-80 rounded-lg mb-4"
+              width={400}
+              height={300}
+            />
+            <h3 className="text-xl font-semibold"> Cheese Pizza</h3>
+            <p className="mt-2">A rich blend of mozzarella, cheddar, parmesan, and gouda, melted to perfection on a thin crust.</p>
+          </div>
+          <div className="text-center shadow-lg p-6 rounded-lg">
+            <Image 
+              src="https://cdn.pixabay.com/photo/2020/09/14/15/13/pizza-5571248_960_720.jpg" 
+              alt="Hawaiian Pizza" 
+              className="w-full h-80 rounded-lg mb-4"
+              width={400}
+              height={300}
+            />
+            <h3 className="text-xl font-semibold">Hawaiian Pizza</h3>
+            <p className="mt-2">A sweet and savory delight with ham, pineapple, and mozzarella on a golden crust.</p>
           </div>
         </div>
       </main>
