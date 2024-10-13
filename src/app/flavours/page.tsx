@@ -7,7 +7,7 @@ const Flavours = () => {
   return (
     <div>
       <Header />
-      <main className="container h-screen mx-auto py-10">
+      <main className="container mx-auto py-20">
         <h1 className="text-4xl font-bold text-center mb-6">Our Pizza Flavours</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="flavour-card text-center">
